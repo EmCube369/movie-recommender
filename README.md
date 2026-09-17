@@ -266,7 +266,7 @@ Install:
 ## 1. Clone the Repository
 
 ```bash
-git clone <YOUR-GITHUB-REPOSITORY-URL>
+git clone https://github.com/EmCube369/movie-recommender.git
 cd Movie-Recommender
 ```
 
