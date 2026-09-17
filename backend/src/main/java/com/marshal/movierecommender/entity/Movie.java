@@ -20,29 +20,39 @@ public class Movie {
 	@Size(max = 255, message = "Title cannot exceed 255 characters")
 	private String title;
 	
-	@NotBlank(message = "genre cannot be blank")
-	@Size(max = 100, message = "Title cannot exceed 100 characters")
+	@NotBlank(message = "Genre cannot be blank")
+	@Size(max = 100, message = "Genre cannot exceed 100 characters")
 	private String genre;
 	
 	@NotNull(message = "Release year cannot be null")
 	@Min(value = 1888, message = "Release year must be 1888 or later")
 	private Integer releaseYear;
 	
-	@NotNull(message = "IMDb rating cannot be null")
-	@DecimalMin(value = "0.0", message = "IMDb rating cannot be less than 0")
-	@DecimalMax(value = "10.0", message = "IMDb rating cannot be more than 10")
-	private Double imdbRating;
+	@DecimalMin(value = "0.0", message = "TMDB rating cannot be less than 0")
+	@DecimalMax(value = "10.0", message = "TMDB rating cannot be more than 10")
+	@Column(name = "tmdb_rating")
+	private Double tmdbRating;
+	
+	@Column(name = "ml_movie_id", unique = true)
+	private Integer mlMovieId;
 	
 	public Movie() {
 	}
 	
-	public Movie(Integer id, String title, String genre, Integer releaseYear,
-			 Double imdbRating) {
+	public Movie(
+	        Integer id,
+	        String title,
+	        String genre,
+	        Integer releaseYear,
+	        Double tmdbRating,
+	        Integer mlMovieId
+	) {
 		this.id = id;
 		this.title = title;
 		this.genre = genre;
 		this.releaseYear = releaseYear;
-		this.imdbRating = imdbRating;
+		this.tmdbRating = tmdbRating;
+		this.mlMovieId = mlMovieId;
 	}
 
 	public Integer getId() {
@@ -77,12 +87,20 @@ public class Movie {
 		this.releaseYear = releaseYear;
 	}
 
-	public Double getImdbRating() {
-		return imdbRating;
+	public Double getTmdbRating() {
+	    return tmdbRating;
 	}
 
-	public void setImdbRating(Double imdbRating) {
-		this.imdbRating = imdbRating;
+	public void setTmdbRating(Double tmdbRating) {
+	    this.tmdbRating = tmdbRating;
+	}
+	
+	public Integer getMlMovieId() {
+	    return mlMovieId;
+	}
+
+	public void setMlMovieId(Integer mlMovieId) {
+	    this.mlMovieId = mlMovieId;
 	}
 	
 	

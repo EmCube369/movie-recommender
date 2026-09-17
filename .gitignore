@@ -23,3 +23,70 @@ frontend/dist/
 # OS
 .DS_Store
 Thumbs.db
+
+# ========================================
+# Generated logs / reports
+# ========================================
+*.log
+backend/repo-test.log
+
+frontend/playwright-report/
+frontend/test-results/
+
+# ========================================
+# Backend build output
+# ========================================
+backend/target/
+
+# ========================================
+# Frontend generated files
+# ========================================
+frontend/node_modules/
+frontend/dist/
+
+# ========================================
+# Python generated files
+# ========================================
+**/__pycache__/
+*.py[cod]
+ml/.pytest_cache/
+ml/.venv/
+ml/venv/
+
+# ========================================
+# Large ML raw/training datasets
+# Do NOT upload these to GitHub
+# ========================================
+ml/data/raw/
+
+ml/data/cleaned/ratings_clean.csv
+ml/data/cleaned/tags_clean.csv
+ml/data/cleaned/tmdb_metadata.csv
+
+ml/data/features/collaborative/cf_interactions.csv
+ml/data/features/collaborative/splits/
+
+ml/data/features/content_features_engineered.csv
+ml/data/features/content_feature_base.csv
+ml/data/features/sentiment/movie_tag_features.csv
+
+ml/data/processed/sentiment/reviews_sentiment_scored.csv
+
+# ========================================
+# Environment variables / secrets
+# ========================================
+.env
+.env.*
+!.env.example
+
+backend/.env
+frontend/.env
+ml/.env
+
+# ========================================
+# IDE / OS
+# ========================================
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,40 @@
+{
+    "version": "1.0",
+    "architecture": "collaborative + personalized content + sentiment reranking",
+    "weights": {
+        "collaborative": 0.5,
+        "content": 0.35,
+        "sentiment": 0.15
+    },
+    "content_profile": {
+        "minimum_positive_rating": 4.0,
+        "rating_weight_formula": "rating - 3.0"
+    },
+    "normalization": {
+        "collaborative": "(predicted_rating - 0.5) / 4.5",
+        "content": "user-relative maximum normalization",
+        "sentiment": "(adjustedSentimentScore + 1) / 2"
+    },
+    "candidate_policy": {
+        "known_user_requires_trained_cf": true,
+        "remove_previously_rated_movies": true,
+        "sentiment_missing_fallback": 0.5
+    },
+    "collaborative": {
+        "users": 200948,
+        "movies": 43864,
+        "trained_movies": 43599,
+        "embedding_dimension": 64
+    },
+    "content": {
+        "catalog_movies": 87550
+    },
+    "sentiment": {
+        "movies": 3769,
+        "missing_policy": "neutral"
+    },
+    "user_history": {
+        "interactions": 31920673,
+        "format": "CSR-style memory-mapped arrays"
+    }
+}

@@ -1,0 +1,24 @@
+test,status,detail
+Sparse known user,PASS,userId 7382 resolved to userIndex 7381
+Unknown user rejection,PASS,Unknown userId: 1200948
+Invalid user input None,PASS,userId cannot be None.
+Invalid user input 'not-a-user',PASS,userId must be an integer.
+Invalid user input True,PASS,userId must be an integer.
+Neutral sentiment fallback,PASS,movieId 3 (Grumpier Old Men) -> 0.5000
+Existing sentiment lookup,PASS,movieId 1 (Toy Story) -> 0.7499
+Catalog-only movie exclusion,PASS,movieId 131072 (Jesus Loves Me) is not CF-recommendable.
+Untrained CF movie exclusion,PASS,movieId 154666 (The Coming of Sin) has CF mapping but no trained movie embedding support.
+CF candidate content coverage,PASS,0 CF-supported movies missing content mapping.
+No-positive-history handling,PASS,No liked movies -> content component safely falls back to zero scores.
+Positive threshold boundary,PASS,"3.5 excluded; 4.0, 4.5 and 5.0 included."
+All candidates already rated,PASS,Candidate builder returns an empty set instead of recommending previously rated movies.
+Normal top_k,PASS,Requested 10 from 100 candidates -> 10
+top_k larger than candidates,PASS,Requested 100 from 7 candidates -> returns 7.
+Invalid top_k 0,PASS,top_k must be greater than zero.
+Invalid top_k -1,PASS,top_k must be greater than zero.
+Non-integer top_k 5.5,PASS,top_k must be a positive integer.
+Non-integer top_k '10',PASS,top_k must be a positive integer.
+Non-integer top_k None,PASS,top_k must be a positive integer.
+Non-integer top_k True,PASS,top_k must be a positive integer.
+Candidate uniqueness,PASS,"43,499 candidate indexes are unique."
+Rated candidate exclusion,PASS,Overlap with rated movies: 0

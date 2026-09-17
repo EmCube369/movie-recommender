@@ -1,0 +1,9 @@
+{
+  "num_users": 200948,
+  "num_movies": 43864,
+  "total_interactions": 31920673,
+  "history_format": "CSR-style indptr + movieIndex + rating arrays",
+  "indptr_dtype": "int64",
+  "movie_index_dtype": "int32",
+  "rating_dtype": "float32"
+}

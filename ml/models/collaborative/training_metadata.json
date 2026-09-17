@@ -1,0 +1,12 @@
+{
+    "num_users": 200948,
+    "num_movies": 43864,
+    "embedding_dim": 64,
+    "global_mean": 3.5577592849731445,
+    "batch_size": 65536,
+    "learning_rate": 0.003,
+    "weight_decay": 1e-05,
+    "best_validation_rmse": 0.8395722026424846,
+    "movies_seen_during_training": 43599,
+    "cold_start_movies": 265
+}

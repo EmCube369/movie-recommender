@@ -1,0 +1,50 @@
+{
+  "phase": "3.9 Test Recommendations",
+  "status": "PASS",
+  "tests": {
+    "3.9.1": "Functional validation - PASS",
+    "3.9.2": "Content-based testing - PASS",
+    "3.9.3": "Collaborative filtering testing - PASS",
+    "3.9.4": "Sentiment signal testing - PASS",
+    "3.9.5": "Hybrid qualitative testing - PASS",
+    "3.9.6": "Offline Top-K evaluation - PASS",
+    "3.9.7": "Edge-case testing - PASS"
+  },
+  "hybrid_weights": {
+    "cf": 0.5,
+    "content": 0.35,
+    "sentiment": 0.15
+  },
+  "offline_evaluation": {
+    "users": 500,
+    "negative_samples_per_user": 1000,
+    "k": 10,
+    "relevance_threshold": 4.0,
+    "cf_only": {
+      "HitRate@10": 0.658,
+      "Recall@10": 0.2553,
+      "Precision@10": 0.1874,
+      "NDCG@10": 0.2747
+    },
+    "cf_content_core": {
+      "HitRate@10": 0.644,
+      "Recall@10": 0.2073,
+      "Precision@10": 0.161,
+      "NDCG@10": 0.2509
+    },
+    "final_hybrid": {
+      "HitRate@10": 0.716,
+      "Recall@10": 0.2582,
+      "Precision@10": 0.189,
+      "NDCG@10": 0.2911
+    }
+  },
+  "known_limitations": [
+    "Sentiment coverage is limited to 3,769 of 87,550 catalog movies.",
+    "Movies without sentiment use neutral sentiment score 0.5.",
+    "Unknown users do not currently have collaborative embeddings.",
+    "CF-mapped movies without trained embedding support are excluded.",
+    "Offline Top-K metrics use sampled ranking with 1,000 negative candidates per user, not full-catalog ranking.",
+    "CF+Content core underperformed CF-only in the sampled offline ranking evaluation, while the final hybrid outperformed both."
+  ]
+}

@@ -1,0 +1,89 @@
+test,status,detail
+File exists: movies_clean_final.csv,PASS,D:\Movie-Recommender\ml\data\processed\movies_clean_final.csv
+File exists: matrix_factorization_best.pt,PASS,D:\Movie-Recommender\ml\models\collaborative\matrix_factorization_best.pt
+File exists: cf_seen_movie_indexes.npy,PASS,D:\Movie-Recommender\ml\models\collaborative\cf_seen_movie_indexes.npy
+File exists: cf_user_mapping.csv,PASS,D:\Movie-Recommender\ml\data\features\collaborative\cf_user_mapping.csv
+File exists: cf_movie_mapping.csv,PASS,D:\Movie-Recommender\ml\data\features\collaborative\cf_movie_mapping.csv
+File exists: movie_id_to_index.pkl,PASS,D:\Movie-Recommender\ml\models\content_based\movie_id_to_index.pkl
+File exists: content_weights.pkl,PASS,D:\Movie-Recommender\ml\models\content_based\content_weights.pkl
+File exists: movie_sentiment_final.csv,PASS,D:\Movie-Recommender\ml\data\processed\sentiment\movie_sentiment_final.csv
+File exists: genre_matrix.npz,PASS,D:\Movie-Recommender\ml\models\content_based\genre_matrix.npz
+File exists: keyword_matrix.npz,PASS,D:\Movie-Recommender\ml\models\content_based\keyword_matrix.npz
+File exists: director_matrix.npz,PASS,D:\Movie-Recommender\ml\models\content_based\director_matrix.npz
+File exists: cast_matrix.npz,PASS,D:\Movie-Recommender\ml\models\content_based\cast_matrix.npz
+File exists: overview_matrix.npz,PASS,D:\Movie-Recommender\ml\models\content_based\overview_matrix.npz
+File exists: tagline_matrix.npz,PASS,D:\Movie-Recommender\ml\models\content_based\tagline_matrix.npz
+File exists: content_based_test_results.csv,PASS,D:\Movie-Recommender\ml\data\processed\testing\content_based_test_results.csv
+File exists: collaborative_test_results.csv,PASS,D:\Movie-Recommender\ml\data\processed\testing\collaborative_test_results.csv
+File exists: sentiment_signal_test_results.csv,PASS,D:\Movie-Recommender\ml\data\processed\testing\sentiment_signal_test_results.csv
+File exists: hybrid_qualitative_test_results.csv,PASS,D:\Movie-Recommender\ml\data\processed\testing\hybrid_qualitative_test_results.csv
+File exists: offline_topk_per_user.csv,PASS,D:\Movie-Recommender\ml\data\processed\testing\offline_topk_per_user.csv
+File exists: offline_topk_summary.csv,PASS,D:\Movie-Recommender\ml\data\processed\testing\offline_topk_summary.csv
+File exists: edge_case_test_results.csv,PASS,D:\Movie-Recommender\ml\data\processed\testing\edge_case_test_results.csv
+Catalog row count,PASS,"87,550 movies"
+Catalog movie IDs unique,PASS,"87,550 unique movie IDs"
+CF user count,PASS,"200,948"
+CF movie count,PASS,"43,864"
+User IDs unique,PASS,No duplicate user IDs
+Movie IDs unique,PASS,No duplicate movie IDs
+User indexes contiguous,PASS,0 ... num_users-1
+Movie indexes contiguous,PASS,0 ... num_movies-1
+CF embedding dimension,PASS,64
+CF best epoch,PASS,15
+CF validation RMSE regression,PASS,0.839572
+CF-supported movie count,PASS,"43,599"
+Content mapping size,PASS,"87,550"
+Content weights,PASS,"{'genre': 0.25, 'keyword': 0.25, 'director': 0.15, 'cast': 0.15, 'overview': 0.15, 'tagline': 0.05}"
+Content weights sum,PASS,1.0000
+genre matrix rows,PASS,"(87550, 24)"
+keyword matrix rows,PASS,"(87550, 32388)"
+director matrix rows,PASS,"(87550, 34112)"
+cast matrix rows,PASS,"(87550, 143829)"
+overview matrix rows,PASS,"(87550, 46427)"
+tagline matrix rows,PASS,"(87550, 9345)"
+Sentiment movie count,PASS,"3,769"
+Sentiment movie IDs unique,PASS,No duplicates
+Adjusted sentiment finite,PASS,All finite
+Reliability finite,PASS,All finite
+Sentiment minimum regression,PASS,-0.532931
+Sentiment maximum regression,PASS,0.809527
+Content test rows,PASS,80 rows (8 seeds x 10)
+Content test seeds,PASS,8 seed movies
+No content self-recommendation,PASS,0 self recommendations
+CF test rows,PASS,40 rows (4 users x 10)
+CF test users,PASS,4 users
+User 1 CF regression movie,PASS,movieId 171011
+User 1 CF regression score,PASS,4.2609
+Sentiment signal output rows,PASS,"3,769"
+Normalized sentiment range,PASS,0.2335 to 0.9048
+Hybrid test rows,PASS,40 rows (4 users x 10)
+Hybrid test users,PASS,4 users
+User 1 hybrid regression movie,PASS,Sunset Boulevard
+User 1 hybrid regression score,PASS,0.7852
+Offline users evaluated,PASS,500 users
+Offline summary model count,PASS,3 models
+CF_ONLY present,PASS,1 matching rows
+CF_ONLY HitRate@10,PASS,0.6580
+CF_ONLY Recall@10,PASS,0.2553
+CF_ONLY Precision@10,PASS,0.1874
+CF_ONLY NDCG@10,PASS,0.2747
+CF_CONTENT_CORE present,PASS,1 matching rows
+CF_CONTENT_CORE HitRate@10,PASS,0.6440
+CF_CONTENT_CORE Recall@10,PASS,0.2073
+CF_CONTENT_CORE Precision@10,PASS,0.1610
+CF_CONTENT_CORE NDCG@10,PASS,0.2509
+FINAL_HYBRID present,PASS,1 matching rows
+FINAL_HYBRID HitRate@10,PASS,0.7160
+FINAL_HYBRID Recall@10,PASS,0.2582
+FINAL_HYBRID Precision@10,PASS,0.1890
+FINAL_HYBRID NDCG@10,PASS,0.2911
+Hybrid beats CF on HitRate@10,PASS,Hybrid 0.7160 vs CF 0.6580
+Hybrid beats CF on Recall@10,PASS,Hybrid 0.2582 vs CF 0.2553
+Hybrid beats CF on Precision@10,PASS,Hybrid 0.1890 vs CF 0.1874
+Hybrid beats CF on NDCG@10,PASS,Hybrid 0.2911 vs CF 0.2747
+Edge-case test count,PASS,23 tests
+All edge cases passed,PASS,"23 passed, 0 failed"
+Hybrid weights sum,PASS,1.00
+CF weight,PASS,0.50
+Content weight,PASS,0.35
+Sentiment weight,PASS,0.15

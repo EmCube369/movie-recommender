@@ -1,0 +1,54 @@
+{
+  "sentiment_model": {
+    "name": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+    "task": "sentiment-analysis",
+    "labels": [
+      "NEGATIVE",
+      "POSITIVE"
+    ],
+    "max_sequence_length": 512
+  },
+  "review_processing": {
+    "total_reviews": 11753,
+    "total_movies": 3769,
+    "multi_chunk_reviews": 1710,
+    "sentiment_score_formula": "positiveProbability - negativeProbability"
+  },
+  "movie_aggregation": {
+    "movies": 3769,
+    "reliability_strength": 5,
+    "reliability_formula": "reviewCount / (reviewCount + reliabilityStrength)",
+    "adjusted_sentiment_formula": "meanSentimentScore * sentimentReliability"
+  },
+  "validation": {
+    "rated_reviews": 10519,
+    "review_level": {
+      "pearson_rating_sentiment": 0.5844,
+      "spearman_rating_sentiment": 0.5898
+    },
+    "strong_rating_validation": {
+      "reviews_evaluated": 7996,
+      "agreement_rate": 0.8997,
+      "accuracy": 0.8997,
+      "precision": 0.9779,
+      "recall": 0.905,
+      "f1": 0.9401
+    },
+    "chunk_validation": {
+      "single_chunk_spearman": 0.6202,
+      "multi_chunk_spearman": 0.5737
+    },
+    "movie_level": {
+      "raw_sentiment_spearman": 0.5511,
+      "adjusted_sentiment_spearman": 0.5827,
+      "movies_min_3_reviews": 1511,
+      "min_3_raw_spearman": 0.6546,
+      "min_3_adjusted_spearman": 0.6564
+    }
+  },
+  "known_limitations": [
+    "DistilBERT sentiment probabilities are highly polarized.",
+    "Sentiment is intended as a secondary hybrid ranking signal.",
+    "Movies with few reviews have reduced sentiment reliability."
+  ]
+}

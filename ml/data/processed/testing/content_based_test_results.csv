@@ -1,0 +1,81 @@
+seedMovieId,seedTitle,rank,movieId,title,release_year,genres,director,tmdbId,poster_path,rich_content_fields,contentScore,genreSim,keywordSim,directorSim,castSim,overviewSim,taglineSim
+1,Toy Story,1,3114,Toy Story 2,1999.0,Animation|Comedy|Family,John Lasseter,863.0,/4rbcp3ng8n1MKHjpeqW0L7Fnpzz.jpg,5,0.5588762,0.850116,0.15926073,1.0,0.5931119,0.45043474,0.0
+1,Toy Story,2,78499,Toy Story 3,2010.0,Animation|Family|Comedy,Lee Unkrich,10193.0,/AbbXspMOwdvwWZgVN0nabZq03Ec.jpg,5,0.4437622,0.850116,0.17215364,0.0,0.7861114,0.46852055,0.0
+1,Toy Story,3,87876,Cars 2,2011.0,Animation|Family|Adventure|Comedy,John Lasseter,49013.0,/okIz1HyxeVOMzYwwHUjH2pHi74I.jpg,5,0.4277219,0.9999999,0.110887624,1.0,0.0,0.0,0.0
+1,Toy Story,4,219268,Cars Toon Mater's Tall Tales,2008.0,Family|Comedy|Adventure|Animation,John Lasseter,438788.0,/eu57jZr6kK8ZsoONzBi3EcwESVZ.jpg,4,0.42641917,0.9999999,0.10567679,1.0,0.0,0.0,0.0
+1,Toy Story,5,2355,A Bug's Life,1998.0,Adventure|Animation|Comedy|Family,John Lasseter,9487.0,/Ah3J9OJVc2CNCuH2zMydXy9fmIC.jpg,5,0.4253681,0.9999999,0.08990234,1.0,0.0,0.019283727,0.0
+1,Toy Story,6,45517,Cars,2006.0,Animation|Adventure|Comedy|Family,John Lasseter,920.0,/2Touk3m5gzsqr1VsvxypdyHY5ci.jpg,5,0.42336425,0.9999999,0.09345715,1.0,0.0,0.0,0.0
+1,Toy Story,7,213980,Tokyo Mater,2008.0,Animation|Comedy|Family|Action|Adventure,John Lasseter,24328.0,/sGwVl4R4RD2rV8NHWthpjemA1zU.jpg,4,0.37754902,0.91019607,0.0,1.0,0.0,0.0,0.0
+1,Toy Story,8,201588,Toy Story 4,2019.0,Family|Comedy|Animation|Adventure,Josh Cooley,301528.0,/w9kR8qbmQ01HwnvK4alvnQ2ca0L.jpg,5,0.37744918,0.9999999,0.15500227,0.0,0.3552972,0.23602709,0.0
+1,Toy Story,9,115879,Small Fry,2011.0,Animation|Comedy|Family|Adventure,Angus MacLane,82424.0,/8siICxMft0JSWZDq9YrXh5U5PZx.jpg,4,0.37518564,0.9999999,0.05097267,0.0,0.5421117,0.20750496,0.0
+1,Toy Story,10,115875,Hawaiian Vacation,2011.0,Animation|Family|Comedy,Gary Rydstrom,77887.0,/iLFYR0HRLmPfXzQdvGvlJhfwtH1.jpg,4,0.36801314,0.850116,0.22098236,0.0,0.5672116,0.10104539,0.0
+2571,The Matrix,1,6365,The Matrix Reloaded,2003.0,Adventure|Action|Thriller|Science Fiction,Lana Wachowski,604.0,/aA5qHS0FbSXO8PxcxUIHbDrJyuh.jpg,5,0.56662726,0.7286897,0.42021334,1.0,0.7475069,0.115169615,0.0
+2571,The Matrix,2,6934,The Matrix Revolutions,2003.0,Adventure|Action|Thriller|Science Fiction,Lana Wachowski,605.0,/bkkS61w94ZVMNVd8KEyyJl2tnY5.jpg,5,0.5394637,0.7286897,0.38066104,1.0,0.7475069,0.0,0.0
+2571,The Matrix,3,263009,The Matrix Resurrections,2021.0,Science Fiction|Action|Adventure,Lana Wachowski,624860.0,/8c4a8kE7PizaGQQnditMmI1xbRp.jpg,5,0.5218955,0.805129,0.39016265,1.0,0.33831036,0.14884023,0.0
+2571,The Matrix,4,177705,Rogue Warrior: Robot Fighter,2017.0,Action|Science Fiction,Neil Johnson,470458.0,/xJwgBNUS3Xlt6RfoVeBYcgpNimj.jpg,4,0.30118865,1.0,0.17184602,0.0,0.0,0.054847524,0.0
+2571,The Matrix,5,143659,Total Reality,1997.0,Action|Science Fiction,Phillip J. Roth,66741.0,/yfNxUtcP2R8aBKZ8MjlzyIa2UpZ.jpg,5,0.30077383,1.0,0.20309533,0.0,0.0,0.0,0.0
+2571,The Matrix,6,211866,The Noah,1975.0,Action|Science Fiction,Daniel Bourla,102119.0,/80AiaMpIqa2JKIY84BvlLGGpXy3.jpg,4,0.29987288,1.0,0.19949146,0.0,0.0,0.0,0.0
+2571,The Matrix,7,214166,Routasydän,1993.0,Science Fiction|Action,Tuomas Sallinen,428111.0,/g15skSxFOgpjOn5V1hkgs05tOdD.jpg,4,0.29987288,1.0,0.19949146,0.0,0.0,0.0,0.0
+2571,The Matrix,8,183537,Prayer of the Rollerboys,1991.0,Science Fiction|Action,Rick King,44568.0,/7YjtI2teTkhNZouCiFLvfmsOHQw.jpg,5,0.29987288,1.0,0.19949146,0.0,0.0,0.0,0.0
+2571,The Matrix,9,218573,The Avenging Fist,2001.0,Action|Science Fiction,Corey Yuen,45925.0,/2o7jghGo8d9dzzs6KT92DtRWR2U.jpg,4,0.29983962,1.0,0.1993584,0.0,0.0,0.0,0.0
+2571,The Matrix,10,90460,2019: After the Fall of New York,1983.0,Action|Science Fiction,Sergio Martino,23807.0,/nAGrOGYNZYReZFE5CGvCvvK30Ax.jpg,5,0.29232624,1.0,0.15187342,0.0,0.0,0.029052427,0.0
+1721,Titanic,1,65130,Revolutionary Road,2008.0,Drama|Romance,Sam Mendes,4148.0,/cvkD3yiVXLg3as8EAG3LaTycONQ.jpg,5,0.3392569,1.0,0.0,0.0,0.5873653,0.007680859,0.0
+1721,Titanic,2,190297,Lady Chatterley's Lover,2015.0,Romance|Drama,Jed Mercurio,354743.0,/6RwYNmcMfsTmOtnNm5PC6LNuy0K.jpg,5,0.32799175,1.0,0.2717866,0.0,0.0,0.0669674,0.0
+1721,Titanic,3,2157,The Chambermaid on the Titanic,1997.0,Romance|Drama,Bigas Luna,115872.0,/p4frEECepz84DjgB7clmwBOXldE.jpg,4,0.3217188,1.0,0.23054591,0.0,0.0,0.09388236,0.0
+1721,Titanic,4,3404,Titanic,1953.0,Drama|Romance,Jean Negulesco,16535.0,/rEPzO9I6LCk6Mxg1X4BsBk6oA3V.jpg,5,0.31755167,1.0,0.19791003,0.0,0.0,0.120494306,0.0
+1721,Titanic,5,1656,Swept from the Sea,1998.0,Drama|Romance,Beeban Kidron,1959.0,/w5Or62J6mF099MQcn0Cq8ycIfqB.jpg,5,0.3055382,1.0,0.061980993,0.0,0.192698,0.074254975,0.0
+1721,Titanic,6,179709,Wonder Wheel,2017.0,Drama|Romance,Woody Allen,429189.0,/gKYpAL1A01T9a1taGXAyfqXjI5x.jpg,5,0.30162647,1.0,0.0,0.0,0.18505666,0.014166161,0.43486062
+1721,Titanic,7,274565,Barkhaa,2015.0,Drama|Romance,Shadaab Mirza,339795.0,/s038BuNRs4xQxEsgjcALbxZyJbs.jpg,5,0.3007776,1.0,0.20311052,0.0,0.0,0.0,0.0
+1721,Titanic,8,118054,Two Weeks in September,1967.0,Drama|Romance,Serge Bourguignon,82966.0,/ta3smR30ld8W9zxut9Ds6lTlUQD.jpg,5,0.29706195,1.0,0.18140529,0.0,0.0,0.0114041725,0.0
+1721,Titanic,9,84122,History Is Made at Night,1937.0,Romance|Drama,Frank Borzage,31903.0,/uINTStWWbJGQKQ58EsW1eAcha65.jpg,5,0.29659712,1.0,0.18638855,0.0,0.0,0.0,0.0
+1721,Titanic,10,4261,Lilies,1997.0,Drama|Romance,John Greyson,47643.0,/bgE2GVACHAuJNZ8WKKUm7PeMTmj.jpg,5,0.29449248,1.0,0.17305201,0.0,0.0,0.008196484,0.0
+58559,The Dark Knight,1,91529,The Dark Knight Rises,2012.0,Action|Crime|Drama|Thriller,Christopher Nolan,49026.0,/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg,5,0.53155345,0.94573843,0.28357378,1.0,0.1893801,0.30545598,0.0
+58559,The Dark Knight,2,33794,Batman Begins,2005.0,Drama|Crime|Action,Christopher Nolan,272.0,/sPX89Td70IDDjVr85jdSBb4rWGr.jpg,5,0.51375484,0.78193,0.36063582,1.0,0.36049837,0.16025741,0.0
+58559,The Dark Knight,3,5388,Insomnia,2002.0,Thriller|Crime|Drama,Christopher Nolan,320.0,/riVXh3EimGO0y5dgQxEWPRy5Itg.jpg,5,0.34457433,0.7470727,0.031224547,1.0,0.0,0.0,0.0
+58559,The Dark Knight,4,283555,Johan Falk: Silent Diplomacy,2015.0,Crime|Thriller|Action,Peter Lindmark,325619.0,/lof0RkJwXCbsjNwMmnbo3lOZAjQ.jpg,4,0.30246592,1.0,0.20986368,0.0,0.0,0.0,0.0
+58559,The Dark Knight,5,217903,The Last Days of American Crime,2020.0,Action|Crime|Thriller,Olivier Megaton,339095.0,/ygCQnDEqUEIamBpdQdDYnFfxvgM.jpg,4,0.29823712,1.0,0.18022187,0.0,0.0,0.021210888,0.0
+58559,The Dark Knight,6,217465,Tenet,2020.0,Action|Thriller|Science Fiction,Christopher Nolan,577922.0,/aCIFMriQh8rvhxpN1IWGgvH0Tlg.jpg,5,0.29790008,0.5916003,0.0,1.0,0.0,0.0,0.0
+58559,The Dark Knight,7,6180,Q & A,1990.0,Action|Thriller|Crime,Sidney Lumet,31598.0,/q45dAIysDhTNiLrqAyhEhWwxxCj.jpg,5,0.2955443,1.0,0.105888136,0.0,0.0,0.12714843,0.0
+58559,The Dark Knight,8,170875,The Fate of the Furious,2017.0,Action|Crime|Thriller,F. Gary Gray,337339.0,/dImWM7GJqryWJO9LHa3XQ8DD5NH.jpg,5,0.2932389,1.0,0.1578787,0.0,0.0,0.025128325,0.0
+58559,The Dark Knight,9,177683,Sun Scarred,2006.0,Action|Crime|Drama|Thriller,Takashi Miike,52401.0,/hVdVEhUqKgP581jhErlEbVemSS9.jpg,4,0.29279214,0.94573843,0.21665749,0.0,0.0,0.014620991,0.0
+58559,The Dark Knight,10,100743,Eye in the Sky,2007.0,Action|Crime|Thriller,Yau Nai-Hoi,37984.0,/dY5A36rodvUBp4NkMrlH6HiDJrF.jpg,5,0.2919023,1.0,0.1414782,0.0,0.0,0.04355181,0.0
+79132,Inception,1,109487,Interstellar,2014.0,Adventure|Drama|Science Fiction,Christopher Nolan,157336.0,/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg,5,0.35257044,0.81028175,0.0,1.0,0.0,0.0,0.0
+79132,Inception,2,217465,Tenet,2020.0,Action|Thriller|Science Fiction,Christopher Nolan,577922.0,/aCIFMriQh8rvhxpN1IWGgvH0Tlg.jpg,5,0.34307683,0.69536376,0.036395684,1.0,0.0,0.06757981,0.0
+79132,Inception,3,200180,Access Code,1984.0,Action|Adventure|Science Fiction,Mark Sobel,266159.0,/amrvHLlPDTqorY0XwhQIDIlETYX.jpg,4,0.29939386,1.0,0.1975755,0.0,0.0,0.0,0.0
+79132,Inception,4,92681,Journey 2: The Mysterious Island,2012.0,Adventure|Action|Science Fiction,Brad Peyton,72545.0,/uFm2vnp9LhHx5MNo1Ego6O3vUhl.jpg,5,0.2819836,1.0,0.12793446,0.0,0.0,0.0,0.0
+79132,Inception,5,91529,The Dark Knight Rises,2012.0,Action|Crime|Drama|Thriller,Christopher Nolan,49026.0,/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg,5,0.28138804,0.2833699,0.0,1.0,0.4036371,0.0,0.0
+79132,Inception,6,255337,Venom: Let There Be Carnage,2021.0,Science Fiction|Action|Adventure,Andy Serkis,580489.0,/pzKsRuKLFmYrW5Q0q8E8G78Tcgo.jpg,5,0.27982336,1.0,0.0,0.0,0.19882245,0.0,0.0
+79132,Inception,7,122882,Mad Max: Fury Road,2015.0,Action|Adventure|Science Fiction,George Miller,76341.0,/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg,5,0.27955818,1.0,0.0,0.0,0.1894392,0.007615205,0.0
+79132,Inception,8,290573,The Creator,2023.0,Science Fiction|Action|Adventure,Gareth Edwards,670292.0,/3dSivDtOuyxLDxPH4v2tcNG1fP7.jpg,5,0.27836564,1.0,0.0,0.0,0.18910418,0.0,0.0
+79132,Inception,9,133001,The Spy Who Loved Flowers,1966.0,Action|Adventure|Science Fiction,Umberto Lenzi,182067.0,/ikYbg2WfWcV5fLC8x8eQsv21izX.jpg,4,0.2781467,1.0,0.11258688,0.0,0.0,0.0,0.0
+79132,Inception,10,263009,The Matrix Resurrections,2021.0,Science Fiction|Action|Adventure,Lana Wachowski,624860.0,/8c4a8kE7PizaGQQnditMmI1xbRp.jpg,5,0.27549025,1.0,0.094679795,0.0,0.0,0.012135334,0.0
+858,The Godfather,1,1221,The Godfather Part II,1974.0,Drama|Crime,Francis Ford Coppola,240.0,/sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg,5,0.5857822,0.99999994,0.29244077,1.0,0.351138,0.40000874,0.0
+858,The Godfather,2,2023,The Godfather Part III,1990.0,Crime|Drama|Thriller,Francis Ford Coppola,242.0,/lm3pQ2QoQ16pextRsmnUbG2onES.jpg,5,0.46694562,0.79364085,0.25377488,1.0,0.18382949,0.18344845,0.0
+858,The Godfather,3,4690,The Cotton Club,1984.0,Crime|Drama,Francis Ford Coppola,2148.0,/jgCsLhIRLKlvUy1p1iImCi0nPnX.jpg,5,0.4087725,0.99999994,0.035090026,1.0,0.0,0.0,0.0
+858,The Godfather,4,2114,The Outsiders,1983.0,Crime|Drama,Francis Ford Coppola,227.0,/l9os0HcXY8BOkvUWAx4rvby3j6L.jpg,5,0.40471584,0.99999994,0.01886335,1.0,0.0,0.0,0.0
+858,The Godfather,5,1672,The Rainmaker,1997.0,Drama|Crime|Thriller,Francis Ford Coppola,11975.0,/twLGHXPjQtS8UyVGp5GXmhJiTM7.jpg,5,0.35298023,0.79364085,0.018280014,1.0,0.0,0.0,0.0
+858,The Godfather,6,26485,Rumble Fish,1983.0,Crime|Drama|Romance,Francis Ford Coppola,232.0,/nwIUWs7cexC8Wk9c6ey8nFltAZd.jpg,5,0.34697476,0.787899,0.0,1.0,0.0,0.0,0.0
+858,The Godfather,7,3730,The Conversation,1974.0,Crime|Drama|Mystery,Francis Ford Coppola,592.0,/dHqVBwcv1SGymOpUueRoKzcmdes.jpg,5,0.32504982,0.7001992,0.0,1.0,0.0,0.0,0.0
+858,The Godfather,8,78955,The Rain People,1969.0,Drama,Francis Ford Coppola,59231.0,/v7QoTc6glt5zEpE05Wg5sFgH0Lf.jpg,5,0.32112846,0.4913517,0.0,1.0,0.3105271,0.011409672,0.0
+858,The Godfather,9,140669,The Big Family,1973.0,Drama|Crime,Tonino Ricci,260909.0,/1lX1hi2adnpnDnM8SHQV2xFzems.jpg,4,0.31640768,0.99999994,0.26563084,0.0,0.0,0.0,0.0
+858,The Godfather,10,2332,Belly,1998.0,Crime|Drama,Hype Williams,12888.0,/i4QhjdZXxdOpKOhc9kh4qqWjRWr.jpg,5,0.31256878,0.99999994,0.25027514,0.0,0.0,0.0,0.0
+6377,Finding Nemo,1,157296,Finding Dory,2016.0,Adventure|Animation|Family,Andrew Stanton,127380.0,/3UVe8NL1E2ZdUZ9EDlKGJY5UzE.jpg,5,0.6172437,0.99999994,0.44138885,1.0,0.39697796,0.315665,0.0
+6377,Finding Nemo,2,60069,WALL·E,2008.0,Animation|Family|Science Fiction,Andrew Stanton,10681.0,/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg,5,0.3501622,0.6808606,0.119788244,1.0,0.0,0.0,0.0
+6377,Finding Nemo,3,61267,Fly Me to the Moon,2008.0,Adventure|Animation|Family,Ben Stassen,13956.0,/wdjn8YldRIgusHRf8aqdKqriRnp.jpg,5,0.302969,0.99999994,0.20654649,0.0,0.0,0.008882644,0.0
+6377,Finding Nemo,4,229777,Shark Bait,2006.0,Animation|Family,Howard E. Baker,19595.0,/xmFSuoUfA1t4xsGKFR6i4kFvmWM.jpg,4,0.2959546,0.83120227,0.27315608,0.0,0.0,0.13243355,0.0
+6377,Finding Nemo,5,126733,Help! I'm a Fish,2000.0,Adventure|Animation|Comedy|Family|Drama,Stefan Fjeldmark,12609.0,/s9yFQD19xJqXEnAnUAZFUan25DJ.jpg,5,0.29345855,0.91501266,0.16264017,0.0,0.0,0.060096625,0.300617
+6377,Finding Nemo,6,235703,Dory's Reef Cam,2020.0,Family|Animation|Comedy|Adventure,Michal Makarewicz,777350.0,/mMWLGu9pFymqipN8yvISHsAaj72.jpg,3,0.2882014,0.9471648,0.046608374,0.0,0.0,0.26505408,0.0
+6377,Finding Nemo,7,188139,Leo Da Vinci: Mission Mona Lisa,2018.0,Animation|Adventure|Family,Sergio Manfio,486072.0,/4jQAmqOZrpWcIPyAiOLurDXLB88.jpg,4,0.28617588,0.99999994,0.14470352,0.0,0.0,0.0,0.0
+6377,Finding Nemo,8,212235,Bratz: Passion 4 Fashion - Diamondz,2006.0,Family|Animation|Adventure,David Mucci Fassett,35940.0,/dfhjR3VAk79FyQSBt5mBnw9MHbz.jpg,5,0.28617588,0.99999994,0.14470352,0.0,0.0,0.0,0.0
+6377,Finding Nemo,9,184239,Peter Rabbit,2018.0,Animation|Adventure|Family,Will Gluck,381719.0,/lugOvdaNpbVGQK9TyMRDiUbLtY6.jpg,5,0.28467482,0.99999994,0.13869931,0.0,0.0,0.0,0.0
+6377,Finding Nemo,10,152569,The Boxcar Children,2014.0,Family|Animation|Adventure,Kyungho Jo,286940.0,/t184N3Tl7JtwBynjhva18o8EBHN.jpg,4,0.2844003,0.99999994,0.11805828,0.0,0.0,0.032571763,0.0
+1214,Alien,1,169984,Alien: Covenant,2017.0,Horror|Science Fiction,Ridley Scott,126889.0,/zecMELPbU5YMQpC81Z8ImaaXuf9.jpg,5,0.46800503,1.0,0.20910335,1.0,0.0,0.104861334,0.0
+1214,Alien,2,94864,Prometheus,2012.0,Science Fiction|Mystery|Horror,Ridley Scott,70981.0,/qsYQflQhOuhDpQ0W2aOcwqgDAeI.jpg,5,0.37985352,0.7920852,0.1029971,1.0,0.0,0.040552832,0.0
+1214,Alien,3,90596,Queen of Blood,1966.0,Science Fiction|Horror,Curtis Harrington,27642.0,/A9tKCHTbbWTOxj7AsYPfnz4ybwY.jpg,5,0.33142045,1.0,0.19940166,0.0,0.0,0.21046697,0.0
+1214,Alien,4,188809,Star Crystal,1986.0,Horror|Science Fiction,Lance Lindsay,69900.0,/hPi0JjIctx5yo7pEJwkXdDJOeTT.jpg,5,0.3310413,1.0,0.22934031,0.0,0.0,0.09930574,0.17620765
+1214,Alien,5,258945,Dédalo,2013.0,Horror|Science Fiction,Jerónimo Rocha,268421.0,/49AuMWmvvzd2rgs8QTYxY547B0e.jpg,4,0.33053583,1.0,0.2965504,0.0,0.0,0.04265495,0.0
+1214,Alien,6,76811,It! The Terror from Beyond Space,1958.0,Science Fiction|Horror,Edward L. Cahn,27179.0,/scPw7bBH3PDAHHT48W0fevQeMO8.jpg,5,0.32670665,1.0,0.30682662,0.0,0.0,0.0,0.0
+1214,Alien,7,134130,The Martian,2015.0,Science Fiction|Drama|Adventure,Ridley Scott,286217.0,/fASz8A0yFE3QB6LgGoOfwvFSseV.jpg,5,0.3196848,0.5224316,0.0849052,1.0,0.0,0.11900392,0.0
+1214,Alien,8,173017,Extraterrestrial Visitors,1983.0,Horror|Science Fiction,Juan Piquer Simón,28445.0,/qxCxjUMv3TvARye7OxLHDcn6t9.jpg,5,0.31702846,1.0,0.18319009,0.0,0.0,0.14153951,0.0
+1214,Alien,9,277308,Nightflyers,1987.0,Horror|Science Fiction,Robert Collector,63381.0,/zWl070rZSrSl7XiAW1tIEdTbhDs.jpg,5,0.3164582,1.0,0.22826727,0.0,0.0,0.06260904,0.0
+1214,Alien,10,541,Blade Runner,1982.0,Science Fiction|Drama|Thriller,Ridley Scott,78.0,/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg,5,0.3130543,0.5693963,0.073770836,1.0,0.0,0.0150834285,0.0
